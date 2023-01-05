@@ -4,12 +4,13 @@
  */
 package Interface;
 
-import Pojo.Produk;
-import Repository.RepoProduk;
+import Pojo.Penjual;
+import Repository.PenjualRepo;
+
 /**
  *
  * @author alzildan
  */
-public interface ProdukInterface extends RepoProduk<Produk, Integer> {
+public interface PenjualInterface extends PenjualRepo<Integer> {
     
 }
